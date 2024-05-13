@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lilita+One&family=Nanum+Gothic+Coding&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+    font-family: "Roboto", sans-serif;
+}
+#head-line{
+    background-color: burlywood;
+    height: 30px;
+    
+}
+#head-line .icons{
+    display: flex;
+   
+}
+#head-line img{
+    width: 30px;
+    height: 30px;
+}
+.icons .text{
+    position: absolute;
+    right: 40px;
+}
+
+.navbar-brand{
+    margin-left: 40px;
+}
+.navbar{
+    background-color: rgb(86, 4, 4);
+    
+}
+#nav-bar{
+    position: sticky;
+    top: 0%;
+}
+.navbar-nav{
+    margin-left: -40px;
+}
+.navbar-nav li a{
+    margin-left: 20px;
+    color: white;
+}
+.navbar-nav li a:hover{
+    color: blue;
+    font-weight: 200;
+    transition: 0.5s;
+}
+.nav-item.sub-menu ul{
+    transition: 1s;
+}
+.navbar-nav .sub-menu ul{
+    display: none;
+    list-style: none;
+    
+}
+.navbar-nav .sub-menu:hover ul{
+    display: block;
+}
+.sub-menu ul a{
+    text-decoration: none;
+    color: #7E2553;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.font-icons{
+    margin-right: 40px;
+    color: white;
+}
+.font-icons a i{
+    color: white;
+    margin-left: 5px;
+}
+.font-icons a i:hover{
+    color: blue;
+    margin-left: 5px;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.options{
+    display: flex;
+    justify-content: space-around;
+    background-color: #7E2553;
+    padding: 30px 0;
+}
+.options button{
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+#add{
+    margin: 30px 0;
+    background-color: rgb(247, 77, 5);
+    color: white;
+}
+#add label{
+    font-size: 20px;
+    font-weight: 400;
+}
+#add .btnn{
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+#add select{
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+#list{
+    margin: 30px 0;
+    background-color: rgb(247, 77, 5);
+    color: white;
+    display: none;
+}
+#list p img{
+    width: 40px;
+    height: 40px;
+}
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+#orders{
+    margin: 30px 0;
+    background-color: rgb(247, 77, 5);
+    color: white;
+    display: none;
+}
+#orders select{
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.orders{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+#approvals{
+    margin: 30px 0;
+    background-color: rgb(247, 77, 5);
+    color: white;
+    display: none;
+}
+.approvals{
+    display: grid;
+    grid-template-columns: 1fr 3fr 2fr;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.approvals .btnnn button{
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+
+
+
+#contact-us{
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: #556B2F;
+    color: white;
+}
+#contact-us button{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    border: 4px solid black;
+    width: fit-content;
+}
+#contact-us button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    border: 4px solid black;
+    transition: 0.5s;
+    width: fit-content;
+}
+.End{
+    padding: 20px 0;
+}
+.copy-right{
+    background-color: black;
+    color: white;
+}

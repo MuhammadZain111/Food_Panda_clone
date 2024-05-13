@@ -1,0 +1,377 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+#head-line{
+    background-color: burlywood;
+    height: 30px;
+    
+}
+#head-line .icons{
+    display: flex;
+   
+}
+#head-line img{
+    width: 30px;
+    height: 30px;
+}
+.icons .text{
+    position: absolute;
+    right: 40px;
+}
+
+.navbar-brand{
+    margin-left: 40px;
+}
+.navbar{
+    background-color: rgb(86, 4, 4);
+    
+}
+#nav-bar{
+    position: sticky;
+    top: 0%;
+}
+.navbar-nav{
+    margin-left: -40px;
+}
+.navbar-nav li a{
+    margin-left: 20px;
+    color: white;
+}
+.navbar-nav li a:hover{
+    color: blue;
+    font-weight: 200;
+    transition: 0.5s;
+}
+.nav-item.sub-menu ul{
+    transition: 1s;
+}
+.navbar-nav .sub-menu ul{
+    display: none;
+    list-style: none;
+    
+}
+.navbar-nav .sub-menu:hover ul{
+    display: block;
+}
+.sub-menu ul a{
+    text-decoration: none;
+    color: #7E2553;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.font-icons{
+    margin-right: 40px;
+    color: white;
+}
+.font-icons a i{
+    color: white;
+    margin-left: 5px;
+}
+.font-icons a i:hover{
+    color: blue;
+    margin-left: 5px;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+#header{
+    background-color: rgb(236, 95, 8);
+    padding: 40px 0;
+    color: white;
+}
+.header .image img{
+    height: 400px;
+    width: 400px;
+}
+.header .text{
+    padding: 70px 30px;
+}
+.header .myself{
+    font-weight: bolder; 
+    font-family: Arial, Helvetica, sans-serif; 
+    text-shadow: 15px 10px 10px black;
+    color: crimson;
+}
+.text button a img{
+    width: 30px;
+    height: 40px;
+    animation: mover 1s infinite alternate;
+}
+@keyframes mover{
+    0%{transform: translateX(0);}
+    100%{transform: translateX(10px);}
+}
+.text button a{
+    text-decoration: none;
+    color: white;
+}
+.text button{
+    padding: 0 20px;
+    border-radius: 30px;
+    display: flex;
+    background-color: crimson;
+}
+.text button:hover{
+    padding: 0 20px;
+    border-radius: 30px;
+    display: flex;
+    background-color: white;
+    transition: 0.5s;
+    border: 2px solid black;
+    color: black;
+    transition: 0.5s;
+}
+.text button a:hover{
+    text-decoration: none;
+    color: black;   
+}
+#main-devices{
+    padding: 40px 0;
+}
+#main-devices .box1{
+    background: linear-gradient(135deg, #ff9999, #ffcc66, #99ccff); /* Define the gradient with three colors */
+
+    padding: 20px;
+    margin: 0  20px;
+    border-radius: 70px;
+    height: 400px;
+}
+#main-devices .box2{
+    background: linear-gradient(to right, #ff9999, #ffcc66, #99ccff); /* Define the gradient with three colors */
+
+    padding: 20px;
+    margin: 0  20px;
+    border-radius: 70px;
+    height: 400px;
+}
+#main-devices .box3{
+    background: linear-gradient(135deg, #ff9999, #ffcc66, #99ccff); /* Linear gradient */
+
+    padding: 20px;
+    margin: 0  20px;
+    border-radius: 70px;
+    height: 400px;
+}
+#main-devices .box1 img{
+    padding-top: 40px;
+    width: 200px;
+}
+#main-devices .box2 img{
+    padding-top: 40px;
+    width: 200px;
+}
+#main-devices .box3 img{
+    padding-top: 40px;
+    width: 200px;
+}
+#main-devices .box1 button{
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+    
+}
+#main-devices .box1 button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    border: 4px solid black;
+    transition: 0.5s;
+}
+#main-devices .box2 button{
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+   
+}
+#main-devices .box2 button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    border: 4px solid black;
+    transition: 0.5s;
+}
+#main-devices .box3 button{
+    background-color: red;
+    color: white;
+    border-radius: 40px;
+  
+}
+#main-devices .box3 button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    border: 4px solid black;
+    transition: 0.5s;
+}
+#trending-items{
+    margin: 20px 0;
+}
+#trending-items .circle img{
+    border-radius: 50%;
+    width: 200px;
+}
+#trending-items .circle{
+    padding: 40px 0;
+    height:250px ;
+}
+#available-items{
+    margin: 40px 0;
+}
+.available-items img{
+    padding: 20px 0;
+    height: 150px;
+    width: 140px;
+    border-radius: 50%;
+}
+.items{
+    margin: 20px 0px;
+    background: linear-gradient(to right, #f37256, #f8961e, #f9c74f, #90be6d, #43aa8b, #577590); /* Linear gradient with various food-related colors */
+    border-radius: 50px;
+}
+.available-items a img:hover{
+    transform: translateY(-20px);
+    transition: 1s;
+}
+.discount{
+    background-color: red; 
+    color: white ; 
+    width: fit-content; 
+    border-radius: 50px; 
+    padding: 5px;
+}
+.learn-btn button{
+    background-color: #6d0382;
+    color: white;
+    border-radius: 40px;
+    border: 4px solid #6d0382;
+    width: fit-content;
+}
+.learn-btn button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    border: 4px solid black;
+    transition: 0.5s;
+    width: fit-content;
+    
+}
+#contact-us{
+    padding-top: 30px;
+    margin-top: 30px;
+    background-color: #556B2F;
+    color: white;
+}
+#contact-us button{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    border: 4px solid black;
+    width: fit-content;
+}
+#contact-us button:hover{
+    background-color: white;
+    color: black;
+    border-radius: 40px;
+    border: 4px solid black;
+    transition: 0.5s;
+    width: fit-content;
+}
+.End{
+    padding: 20px 0;
+}
+.copy-right{
+    background-color: black;
+    color: white;
+}
+#Gnav-bar .navbar{
+    background-image: linear-gradient(to right , orange , yellow);
+}
+
+#Gnav-bar .navbar img{
+    width: 150px;
+    padding-left: 20px;
+}
+#Gnav-bar .navbar input{
+    margin-left: 80px;
+}
+
+#Gnav-bar .navbar input{
+    border: 2px solid white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: inline-flex;
+    padding-left: 8px;
+}
+#Gnav-bar .fa-search{
+    background-color: white;
+    color: black;
+    padding: 5px 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#Gnav-bar .elements{
+    float: right;
+    display: inline-flex;
+    margin-top: 5px;
+}
+#Gnav-bar .elements ul{
+    list-style: none;
+    float: right;
+    display: inline-flex;
+}
+#Gnav-bar .elements ul li{
+    color: black;
+    border-radius: 20px;
+    margin: 0 10px;
+    float: right;
+    font-size: 20px;
+    margin-right: 30px;
+}
+#Gnav-bar .elements ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+#Gnav-bar .elements ul li a:hover{
+    color: blue;
+    transition: 1s;
+}
+#Gnav-bar .elements ul li a i{
+    margin-right: 5px;
+}
+#av-products{
+    margin: 20px 0;
+ }
+ #av-products h1{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px 15px;
+ }
+ #av-products h4{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+    width: fit-content;
+    border-radius: 10px;
+    padding: 5px 15px;
+ }
+ #av-products .products{
+    border: 2px solid black;
+    padding: 10px 0;
+ }
+ #av-products .products img{
+    height: 200px;
+    width: 100px;
+ }
+ .products img:hover{
+    transform: translateY(-10px);
+    transition: .5s;
+ }
